@@ -20,6 +20,12 @@ pyenv local 3.11.2
 poetry install
 ```
 
+## 実行
+
+```bash
+poetry run uvicorn main:app --reload
+```
+
 ## フォーマッター
 
 ```bash
